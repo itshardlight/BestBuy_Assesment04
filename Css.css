@@ -1,0 +1,121 @@
+body {
+  margin: 0px;
+}
+.white {
+  gap: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.white2 {
+  gap: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.white3 {
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.head1 {
+  /* border: solid green 1px; */
+  display: flex;
+
+  background-color: #013096f6;
+  justify-content: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.head2 {
+  display: flex;
+  background-color: #0046bef1;
+  justify-content: space-between;
+  /* border: solid rgb(191, 244, 1); */
+  gap: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: solid rgba(255, 255, 255, 0.281) 1px;
+}
+.subhead1 {
+  display: flex;
+  justify-content: left;
+  /* border: solid rgb(17, 244, 1); */
+}
+.search {
+  width: 617px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}
+.num2 {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.num1 {
+  align-items: center;
+  display: flex;
+}
+.num3 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 50px;
+}
+.searchicon1 {
+  /* border: solid rgb(1, 110, 244); */
+  left: 0px;
+  top: 0px;
+  /* z-index: 10; */
+}
+
+.searchicon {
+  position: absolute;
+  /* justify-items: right; */
+  z-index: 4;
+  margin-left: 95%;
+  width: 25px;
+  height: 25px;
+  /* border: solid rgb(244, 17, 1); */
+}
+.subhead2 {
+  display: flex;
+  gap: 50px;
+
+  /* border: solid rgb(244, 199, 1); */
+}
+.Aiea {
+  display: flex;
+  gap: 10px;
+  /* border: solid rgb(1, 54, 244); */
+  align-items: center;
+}
+.Cart {
+  display: flex;
+  gap: 10px;
+  /* border: solid rgb(240, 1, 244); */
+  align-items: center;
+}
+.head3 {
+  /* border: solid purple 1px; */
+  display: flex;
+  justify-content: space-between;
+  background-color: #0046bef1;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+.lowhead1 {
+  display: flex;
+  justify-content: left;
+  /* border: solid green; */
+}
+.lowhead2 {
+  display: flex;
+  /* border: solid green; */
+  /* justify-content: right; */
+  align-items: center;
+}
