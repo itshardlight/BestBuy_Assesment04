@@ -255,13 +255,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: solid brown;
+  /* border: solid brown; */
   margin-left: 50px;
   margin-right: 50px;
 }
 .lastfooter {
   display: flex;
-  border: solid green;
+  /* border: solid green; */
   gap: 40px;
 }
 .footer4 {
