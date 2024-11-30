@@ -22,6 +22,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+.white4{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
 .black1 {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -37,6 +41,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   /* color: red; */
+}
+.black3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
 }
 .blue1:hover {
   text-decoration: underline;
@@ -80,6 +90,22 @@ body {
 .blue5:hover {
   color: black;
   animation-duration: 5s;
+}
+.blue6{
+  color: #0046be;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
+.blue6:hover{
+  text-decoration: underline;
+}
+.blue7{
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0046be;
+  font-weight: bold;
 }
 .head1 {
   /* border: solid green 1px; */
@@ -246,6 +272,7 @@ body {
   background-color: white;
   margin-top: 20px;
   margin-right: 8px;
+  width: 400px;
 }
 .footer {
   background-color: rgba(221, 221, 221, 0.443);
@@ -279,3 +306,34 @@ body {
   gap: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.submitemail{
+  width: 270px;
+  height: 30px;
+  border-radius: 5px;
+  border: solid rgba(128, 117, 117, 0.751) 1px;
+}
+.bsignup{
+  height: 34px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0046be;
+ 
+}
+input {
+  padding-left: 13px; 
+}
+
+input::placeholder {
+  color: gray; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgba(87, 87, 87, 0.82);
+}
+.signupb{
+  gap: 10px;
+  display: flex;
+}
+
+
+
