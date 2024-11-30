@@ -5,10 +5,12 @@ body {
   /* nav bar ko white wala sano text */
   gap: 20px;
   color: white;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 12px;
+  /* font-weight: bold; */
 }
-
+p:hover {
+  text-decoration: underline;
+}
 .white2 {
   gap: 20px;
   color: white;
@@ -105,6 +107,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #0046be;
   font-weight: bold;
+}
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.yellow1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  font-size: 20px;
+  font-weight: 1px;
+}
+.yellow2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  font-size: 15px;
 }
 .head1 {
   /* border: solid green 1px; */
@@ -333,13 +349,39 @@ input::placeholder {
   gap: 10px;
   display: flex;
 }
-
+/* body ko sabai css */
 .bodycontent {
-  border: solid green;
-  height: 600px;
+  /* border: solid green; */
+  /* height: 600px; */
+  margin-top: 2px;
 }
 .body1 {
-  border: solid purple;
-   height: 500px;
-   margin: 20px;
+  /* border: solid purple; */
+  /* height: 500px; */
+}
+
+.child1 {
+  /* body ko mathi ko black wala */
+  padding-top: 12px;
+  background-color: #1d252c;
+  width: 100%;
+  /* height: 50px; */
+  padding-left: 250px;
+  display: flex;
+  justify-content: left;
+  gap: 140px;
+  padding-bottom: 10px;
+}
+.ch1 {
+}
+.child2 {
+  /* gradient 1st wala  */
+  background-image: linear-gradient(
+    to bottom right,
+    #1d252c 25%,
+    rgb(5, 0, 255) 100%
+  );
+  width: 100%;
+  height: 2000px;
+  /* margin-bottom: 0px; */
 }
