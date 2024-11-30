@@ -33,11 +33,53 @@ body {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.black2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  /* color: red; */
+}
 .blue1:hover {
   text-decoration: underline;
   color: #0457c8;
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue2 {
+  color: #2966bd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  gap: 30px;
+}
+.blue3 {
+  color: #2966bd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+.blue3:hover {
+  text-decoration: underline;
+  color: #1d447a;
+}
+.blue4 {
+  color: #2967bd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  /* font-weight: bold; */
+}
+.blue4:hover {
+  color: #2967bd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.blue5 {
+  color: #2967bd;
+  text-decoration: underline;
+}
+.blue5:hover {
+  color: black;
+  animation-duration: 5s;
 }
 .head1 {
   /* border: solid green 1px; */
@@ -138,9 +180,12 @@ body {
   /* justify-content: right; */
   align-items: center;
 }
-hr {
+.bottomhr {
   margin-left: 50px;
   margin-right: 50px;
+}
+.lasthr {
+  color: rgb(65, 65, 65);
 }
 .footer1 {
   /* border: solid purple; */
@@ -148,26 +193,14 @@ hr {
   justify-content: space-evenly;
   padding-right: 10px;
   padding-bottom: 40px;
-  
 }
 
-.blue3 {
-  color: #2966bd;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-}
-.blue3:hover{
-  text-decoration: underline;
-  color: #1d447a;;
-}
 .fchild {
   /* border: solid purple; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 .footer2 {
   display: flex;
@@ -175,6 +208,7 @@ hr {
   margin-right: 30px;
   padding-right: 10px;
   /* border: solid blue; */
+  padding-bottom: 60px;
 }
 .childfot1 {
   display: flex;
@@ -215,4 +249,33 @@ hr {
 }
 .footer {
   background-color: rgba(221, 221, 221, 0.443);
+  padding-bottom: 30px;
+}
+.footer3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid brown;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.lastfooter {
+  display: flex;
+  border: solid green;
+  gap: 40px;
+}
+.footer4 {
+  margin-left: 50px;
+  margin-right: 50px;
+  /* border: solid purple; */
+}
+.childf1 {
+  /* border: solid pink; */
+  display: flex;
+  gap: 10px;
+}
+.review {
+  display: flex;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
