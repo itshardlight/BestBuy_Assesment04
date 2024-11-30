@@ -22,7 +22,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
-.white4{
+.white4 {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
@@ -42,11 +42,10 @@ body {
   font-size: 13px;
   /* color: red; */
 }
-.black3{
+.black3 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
-
 }
 .blue1:hover {
   text-decoration: underline;
@@ -91,17 +90,17 @@ body {
   color: black;
   animation-duration: 5s;
 }
-.blue6{
+.blue6 {
   color: #0046be;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: bold;
   /* text-decoration: underline; */
 }
-.blue6:hover{
+.blue6:hover {
   text-decoration: underline;
 }
-.blue7{
+.blue7 {
   font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
   color: #0046be;
@@ -307,37 +306,40 @@ body {
   gap: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.submitemail{
+.submitemail {
   width: 270px;
   height: 30px;
   border-radius: 5px;
   border: solid rgba(128, 117, 117, 0.751) 1px;
 }
-.bsignup{
+.bsignup {
   height: 34px;
   width: 130px;
   border-radius: 5px;
   border: none;
   background-color: #0046be;
- 
 }
 input {
-  padding-left: 13px; 
+  padding-left: 13px;
 }
 
 input::placeholder {
-  color: gray; 
+  color: gray;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: rgba(87, 87, 87, 0.82);
 }
-.signupb{
+.signupb {
   gap: 10px;
   display: flex;
 }
 
-.bodycontent{
+.bodycontent {
   border: solid green;
   height: 600px;
 }
-
+.body1 {
+  border: solid purple;
+   height: 600px;
+   margin: 20px;
+}
