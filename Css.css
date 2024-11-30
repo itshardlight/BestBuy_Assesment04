@@ -336,5 +336,8 @@ input::placeholder {
   display: flex;
 }
 
-
+.bodycontent{
+  border: solid green;
+  height: 600px;
+}
 
