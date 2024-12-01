@@ -228,6 +228,7 @@ p:hover {
 .lasthr {
   color: rgb(65, 65, 65);
 }
+
 .footer1 {
   /* border: solid purple; */
   display: flex;
@@ -375,30 +376,225 @@ input::placeholder {
 
 .child2 {
   /* gradient 1st wala  */
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
     to bottom right,
     #1d252c 25%,
     rgb(5, 0, 255) 100%
-  ); */
+  );
   /* width: 100%; */
-  height: 2000px;
+
   /* margin-bottom: 0px; */
 }
 .apple {
-  border: solid black;
-  height: 600px;
+  /* border: solid black; */
+  /* height: 600px; */
+  display: flex;
+  flex-direction: column;
 }
 .childapple1 {
-  border: solid red;
-  height: 300px;
+  /* border: solid red; */
+  height: 400px;
+  /* width: 20px; */
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+}
+.childapple2 {
+  /* border: solid purple; */
+  margin: 20px;
+  /* height: 300px; */
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  overflow-x: scroll;
+}
+.circleimg {
+  width: 100px; /* Set desired width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: scale-down;
+}
+.imgcircle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.name1 {
+  color: yellow !important;
+  /* z-index: 100; */
+  /* border: solid yellow; */
+  text-align: center;
+  justify-content: center;
+}
+.img1 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: solid blue;
+  background-color: white;
 }
 .insideapple1 {
-  border: solid blue;
-  height: 200px;
+  /* border: solid rgb(0, 255, 17); */
+  /* height: 250px; */
   width: 30%;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 70px;
+  font-size: 80px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.yellow23 {
+  font-size: 60px;
+}
+.insidecontainer {
+  color: yellow;
+  font-size: bold;
+  font-family: "Human BBY Digital", "Human Fallback", Arial, Helvetica,
+    sans-serif;
 }
 .insideapple2 {
   border: solid blue;
   height: 200px;
-  width: 70%;
+  display: flex;
+  flex-direction: column;
+  /* width: 70%; */
+}
+.insidecont2 {
+  width: 300px;
+  height: 200px;
+  /* border: solid green; */
+}
+.gridimg {
+  object-fit: scale-down;
+}
+.white78 {
+  font-size: 10px;
+  color: white;
+}
+.shopnow {
+  /* border: solid palegreen; */
+  margin-top: -55px;
+}
+.shopnowmini {
+  background-color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #001f54;
+  padding: 8px;
+  font-weight: bolder;
+  border-radius: 3px;
+  margin-left: -1px;
+}
+.white78:hover {
+  text-decoration: none;
+}
+.yellow78 {
+  font-size: 10px;
+  color: yellow;
+}
+.smalltext {
+  margin: 0px;
+  display: flex;
+  gap: 5px;
+}
+.yellow33 {
+  color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.insidediv1 {
+  /* bo-toprder: solid white; */
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 20px; */
+  line-height: 70px;
+}
+.bgyellow {
+  font-size: 30px;
+  height: 50px;
+  color: rgb(19, 19, 126);
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 10px;
+
+  background-color: yellow;
+  text-align: left;
+}
+.insideapple2 {
+  border: solid rgb(43, 255, 0);
+  margin-top: 20px;
+}
+
+/* body 3 ko mac haru */
+.child3 {
+  /* height: 200px; */
+margin-bottom: 30px;
+  /* border: solid green; */
+}
+.childmac1 {
+  /* border: solid pink; */
+  height: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: underline;
+}
+.mac:hover {
+  text-decoration: underline;
+  text-underline-offset: 9px;
+  text-decoration-thickness: 2px;
+  border-radius: 10px;
+}
+.hrline {
+  margin-top: -10px;
+}
+.childmac2 {
+  /* border: solid brown; */
+ gap: 20px;
+  display: flex;
+  margin-top: 40px;
+  
+ 
+}
+
+.childmac2 {
+ 
+  /* border: solid purple; */
+}
+.macimg {
+  width: 250px;
+  height: 150px;
+  /* border: 2px solid rgb(52, 52, 52); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.macimgchild {
+  max-width: 100%;
+  max-height: 100%;
+}
+.mac1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  border: solid rgba(84, 84, 84, 0.756) 1px;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 30px;
+}
+.mactext {
+  font-size: 12px;
+  color: rgb(47, 47, 185);
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
