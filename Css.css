@@ -487,6 +487,7 @@ input::placeholder {
   font-weight: bolder;
   border-radius: 3px;
   margin-left: -1px;
+  border: none;
 }
 .white78:hover {
   text-decoration: none;
