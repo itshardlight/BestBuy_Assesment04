@@ -457,12 +457,14 @@ input::placeholder {
     sans-serif;
 }
 .insideapple2 {
-  border: solid blue;
+  /* border: solid blue; */
   height: 200px;
   display: flex;
   flex-direction: column;
   /* width: 70%; */
+  margin-top: 20px;
 }
+
 .insidecont2 {
   width: 300px;
   height: 200px;
@@ -526,10 +528,7 @@ input::placeholder {
   background-color: yellow;
   text-align: left;
 }
-.insideapple2 {
-  border: solid rgb(43, 255, 0);
-  margin-top: 20px;
-}
+
 
 /* body 3 ko mac haru */
 .child3 {
@@ -583,7 +582,7 @@ input::placeholder {
   flex-direction: column;
   align-items: center;
   width: 20%;
-  border: solid rgba(84, 84, 84, 0.756) 1px;
+  /* border: solid rgba(84, 84, 84, 0.756) 1px; */
   justify-content: center;
   padding: 10px;
   padding-top: 30px;
@@ -599,7 +598,7 @@ input::placeholder {
 /* dealfotheday */
 
 .child4 {
-  border: solid black;
+  /* border: solid black; */
   /* height: 200px;
   width: 300px; */
   display: flex;
@@ -609,6 +608,9 @@ input::placeholder {
 }
 .bgyellow45 {
   background-color: yellow;
+}
+.borderblack{
+  border:solid rgba(84, 84, 84, 0.724) 0.5px;
 }
 .dealoftheday1 {
   /* border: solid pink; */
@@ -633,6 +635,8 @@ input::placeholder {
 }
 .dealchildschild {
   padding: 40px;
+  gap: 0px;
+  line-height: 0px;
 }
 .dealyellow {
   color: yellow;
@@ -646,4 +650,49 @@ input::placeholder {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   line-height: 0px;
+}
+.unish:hover{
+  text-decoration: none;
+}
+.outlet1{
+  background-color: rgb(28, 55, 141);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -20px;
+  /* margin: 10px; */
+  font-weight: bolder;
+  width: 105px;
+  color: white;
+  display: flex;
+  height: 20px;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+}
+.outlet33{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(174, 20, 20);
+font-size: 50px;
+font-weight: bolder;
+/* border: solid green; */
+}
+.outlet44{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(0, 0, 0);
+font-size: 45px;
+font-weight: bolder;
+/* border: solid green; */
+}
+.outletcont{
+  margin: 40px;
+  gap: 0px;
+  line-height: 0px;
+}
+.outlet3{
+  margin-top: 80px;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 14px;
+  /* width: 400px; */
+  /* border: solid #001f54; */
+ 
 }
